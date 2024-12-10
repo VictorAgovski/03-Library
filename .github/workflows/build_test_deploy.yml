@@ -22,4 +22,6 @@ jobs:
     - name: Start Backend Server
       run: npm run start:be &
     - name: Start Frontend
-      run: npm run start:fe
+      run: npm run start:fe &
+    - name: Run Tests
+      run: npm run test:ui
